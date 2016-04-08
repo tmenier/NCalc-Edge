@@ -190,7 +190,12 @@ namespace NCalc
         protected Dictionary<string, IEnumerator> ParameterEnumerators;
         protected Dictionary<string, object> ParametersBackup;
 
-        public object Evaluate()
+	    public object Evaluate() 
+		{
+		    return Evaluate(new EvaluationVisitor());
+	    }
+
+        public object Evaluate(EvaluationVisitor visitor)
         {
             if (HasErrors())
             {
@@ -202,8 +207,7 @@ namespace NCalc
                 ParsedExpression = Compile(OriginalExpression, (Options & EvaluateOptions.NoCache) == EvaluateOptions.NoCache);
             }
 
-
-            var visitor = new EvaluationVisitor(Options);
+            visitor.Options = Options;
             visitor.EvaluateFunction += EvaluateFunction;
             visitor.EvaluateParameter += EvaluateParameter;
             visitor.Parameters = Parameters;
