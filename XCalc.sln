@@ -7,6 +7,25 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XCalc", "XCalc\XCalc.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XCalc.Tests", "XCalc.Tests\XCalc.Tests.csproj", "{F8E5E800-F842-4F84-A0C6-B3E1E5DB2BB4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Nuget", "Nuget", "{77E6B654-0637-4994-8A0B-182E2B4DBC3A}"
+	ProjectSection(SolutionItems) = preProject
+		Nuget\NCalc.nuspec = Nuget\NCalc.nuspec
+		Nuget\pack.ps1 = Nuget\pack.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Grammar", "Grammar", "{E9CC3DEE-7A1B-48B5-A2D4-125E068E0B20}"
+	ProjectSection(SolutionItems) = preProject
+		Grammar\NCalc.g = Grammar\NCalc.g
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Misc", "Misc", "{A2B702BF-3D11-4B10-B8AF-CD4988104F43}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		appveyor.yml = appveyor.yml
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
