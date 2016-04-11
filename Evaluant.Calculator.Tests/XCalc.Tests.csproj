@@ -84,9 +84,9 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Evaluant.Calculator\NCalc.csproj">
+    <ProjectReference Include="..\Evaluant.Calculator\XCalc.csproj">
       <Project>{5f014003-50d8-49e0-8afe-91d38dccc97c}</Project>
-      <Name>NCalc</Name>
+      <Name>XCalc</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

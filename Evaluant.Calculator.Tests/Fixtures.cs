@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Diagnostics;
 using System.Linq;
-using NCalc.Domain;
+using XCalc.Domain;
 using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Threading;
 using System.Collections;
 using ThreadState = System.Threading.ThreadState;
 
-namespace NCalc.Tests
+namespace XCalc.Tests
 {
     [TestClass]
     public class PerformanceTests

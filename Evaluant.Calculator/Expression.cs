@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
-using NCalc.Domain;
+using XCalc.Domain;
 using Antlr.Runtime;
 using System.Diagnostics;
 using System.Threading;
 
-namespace NCalc
+namespace XCalc
 {
     public class Expression
     {

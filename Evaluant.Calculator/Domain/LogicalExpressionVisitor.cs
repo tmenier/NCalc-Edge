@@ -1,5 +1,5 @@
 
-namespace NCalc.Domain
+namespace XCalc.Domain
 {
     public abstract class LogicalExpressionVisitor
     {

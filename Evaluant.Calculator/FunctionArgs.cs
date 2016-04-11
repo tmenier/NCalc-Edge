@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace NCalc
+namespace XCalc
 {
     public class FunctionArgs : EventArgs
     {

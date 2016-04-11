@@ -1,6 +1,6 @@
 using System;
 
-namespace NCalc.Domain
+namespace XCalc.Domain
 {
 	public class ValueExpression : LogicalExpression
 	{

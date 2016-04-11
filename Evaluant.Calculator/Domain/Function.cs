@@ -1,4 +1,4 @@
-namespace NCalc.Domain
+namespace XCalc.Domain
 {
 	public class Function : LogicalExpression
 	{

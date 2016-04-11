@@ -4,12 +4,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("NCalc")]
+[assembly: AssemblyTitle("XCalc")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("NCalc")]
-[assembly: AssemblyCopyright("Sebastien Ros")]
+[assembly: AssemblyProduct("XCalc")]
+[assembly: AssemblyCopyright("Sebastien Ros and Todd Menier")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
