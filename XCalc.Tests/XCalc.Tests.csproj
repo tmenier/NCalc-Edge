@@ -84,7 +84,7 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Evaluant.Calculator\XCalc.csproj">
+    <ProjectReference Include="..\XCalc\XCalc.csproj">
       <Project>{5f014003-50d8-49e0-8afe-91d38dccc97c}</Project>
       <Name>XCalc</Name>
     </ProjectReference>
