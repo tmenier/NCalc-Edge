@@ -8,8 +8,8 @@
     <ProjectGuid>{5F014003-50D8-49E0-8AFE-91D38DCCC97C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>NCalc</RootNamespace>
-    <AssemblyName>NCalc</AssemblyName>
+    <RootNamespace>XCalc</RootNamespace>
+    <AssemblyName>XCalc</AssemblyName>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <OldToolsVersion>3.5</OldToolsVersion>

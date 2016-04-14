@@ -9,8 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XCalc.Tests", "XCalc.Tests\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Nuget", "Nuget", "{77E6B654-0637-4994-8A0B-182E2B4DBC3A}"
 	ProjectSection(SolutionItems) = preProject
-		Nuget\NCalc.nuspec = Nuget\NCalc.nuspec
 		Nuget\pack.ps1 = Nuget\pack.ps1
+		Nuget\XCalc.nuspec = Nuget\XCalc.nuspec
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Grammar", "Grammar", "{E9CC3DEE-7A1B-48B5-A2D4-125E068E0B20}"

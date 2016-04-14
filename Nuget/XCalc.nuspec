@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>XCalc</id>
+    <version>0.1.0</version>
+    <authors>sebastienros, pitermarx, tmenier</authors>
+    <licenseUrl>http://ncalc.codeplex.com/license</licenseUrl>
+    <projectUrl>https://github.com/tmenier/XCalc</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>An NCalc fork with a focus on extensibility</description>
+    <tags>ncalc mathematical expression parse evaluate</tags>
+    <dependencies>
+      <dependency id="Antlr" version="3.5.0.2" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\XCalc\bin\Release\XCalc.dll" target="lib\" />
+  </files>
+</package>
