@@ -87,7 +87,6 @@ namespace XCalc
                 foreach (string key in keysToRemove)
                 {
                     _compiledExpressions.Remove(key);
-                    Trace.TraceInformation("Cache entry released: " + key);
                 }
             }
             finally
@@ -110,7 +109,6 @@ namespace XCalc
 
                     if (_compiledExpressions.ContainsKey(expression))
                     {
-                        Trace.TraceInformation("Expression retrieved from cache: " + expression);
                         var wr = _compiledExpressions[expression];
                         logicalExpression = wr.Target as LogicalExpression;
                     
@@ -151,8 +149,6 @@ namespace XCalc
                     }
 
                     CleanCache();
-
-                    Trace.TraceInformation("Expression added to cache: " + expression);
                 }
             }
 
